@@ -1,1 +1,1 @@
-Build and typecheck passed. Browser: 1440/768/390px, menu, phases, disclosures, theme persistence, invalid/empty form, reduced motion, no runtime errors.
+Build and typecheck passed. Browser: 1440/768/390px, menu, phases, radar modals, theme persistence, invalid/empty form, reduced motion, no runtime errors.

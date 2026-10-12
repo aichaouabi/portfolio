@@ -1,8 +1,37 @@
-﻿node_modules/
+﻿# Dependencies and production output
+node_modules/
 dist/
 *.tsbuildinfo
-.local/
-test-results/
 
+# Local environment variables
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local tooling and verification artifacts
+.local/
+.vite/
+coverage/
+test-results/
+playwright-report/
 preview-*.png
 read-pdf.mjs
+
+# Editor and operating system files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo

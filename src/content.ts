@@ -1,12 +1,14 @@
-﻿export const profile = {
+import profileImage from "./assets/profile.png";
+
+export const profile = {
   name: "Aicha Ouabi Idar",
   role: "Co-Founder of VA CONSULTING",
-  email: "vaconsulting369@gmail.com",
+  email: "aicha.ouabi@gmail.com",
   phone: "+212 701 229 022",
   location: "Maroc",
   linkedin: "",
   whatsapp: "https://wa.me/212701229022",
-  image: "/images/aicha-profile.png",
+  image: profileImage,
   intro:
     "Depuis plus de 25 ans, j’accompagne les organisations dans l’amélioration de leurs systèmes de management, l’optimisation de leurs processus et le développement des compétences de leurs équipes.",
   about:
@@ -70,6 +72,19 @@ export const expertise = [
       "Coaching opérationnel",
       "Développement des compétences",
       "Mobilisation et responsabilisation des équipes",
+    ],
+  },
+  {
+    title: "Digitalisation & automatisation",
+    description:
+      "Simplifier vos processus métier grâce aux outils no code de Microsoft 365.",
+    icon: "digital",
+    details: [
+      "Analyse des processus métier et identification des tâches à automatiser",
+      "Digitalisation des formulaires et du suivi des activités avec Microsoft Forms et Microsoft Lists",
+      "Automatisation des notifications, des validations et des tâches récurrentes avec Power Automate",
+      "Organisation et partage de l’information avec SharePoint et Teams",
+      "Accompagnement des équipes dans l’appropriation des outils no code",
     ],
   },
 ];
@@ -145,7 +160,7 @@ export const offers = [
 ];
 export const copy = {
   welcome: "Bienvenue dans mon univers professionnel",
-  headline: "La qualité au service de votre performance.",
+  headline: "Structurer vos pratiques. Faire progresser vos équipes.",
   tagline:
     "Transformer les systèmes de management en véritables leviers de performance.",
   discover: "Découvrir mon expertise",

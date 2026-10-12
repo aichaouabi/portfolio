@@ -8,4 +8,4 @@ Runtime owner: src/styles.css. Deep teal #1a535c; turquoise #4ecdc4; off-white #
 ## Behavior
 Shared section heading and action styles. French UI; English only for Co-Founder of VA CONSULTING. Sticky anchor navigation, native disclosures, phase buttons, explicit mailto form, configurable LinkedIn. Keyboard focus, reduced motion, visible scrollbars, mobile menu, stored theme.
 ## Content evidence
-User supplied portfolio brief, with React/Vite/Tailwind overriding its stack. PDF is editorial evidence only. Profile image slot: public/images/aicha-profile.png; abstract diagram fallback when missing.
+User supplied portfolio brief, with React/Vite/Tailwind overriding its stack. PDF is editorial evidence only. Profile image slot: src/assets/profile.png; ProcessArt is an interactive expertise radar with five buttons and native modal details.
