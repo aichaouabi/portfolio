@@ -1,0 +1,8 @@
+﻿node_modules/
+dist/
+*.tsbuildinfo
+.local/
+test-results/
+
+preview-*.png
+read-pdf.mjs
